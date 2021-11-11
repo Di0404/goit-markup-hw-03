@@ -15,7 +15,7 @@
 <body class="page">
     <!-- шапка сайти -->
     <header class="header">
-        <div class="container">
+        <div class="container container-header">
         <nav class="site-nav">
         <a href="./index.html" class="logo">Web<span class="logo-header">Studio</span></a>
         <ul class="nav-list">
@@ -25,22 +25,22 @@
         </ul>
         </nav>
         <ul class="contact-info">
-            <li><a href="mailto:info@devstudio.com" class="mailo">info@devstudio.com</a></li>
-            <li><a href="tel:+380961111111" class="phone">+38 096 111 11 11</a></li>
+            <li class="contact-item"><a href="mailto:info@devstudio.com" class="mailo">info@devstudio.com</a></li>
+            <li class="contact-item info-item"><a href="tel:+380961111111" class="phone">+38 096 111 11 11</a></li>
         </ul>
         </div>
     </header>
     <main>
         <!-- герой -->
-        <section class="hero">
+        <section class="section hero">
             <div class="container">
         <h1  class="hero-title">Эффективные решения <br/>для вашего бизнеса</h1>
         <button type="button" class="button">Заказать услугу</button>
             </div>
         </section>
         <!-- особенности -->
-        <section class="section-feauters"> 
-            <div class="container">
+        <section class="section section-feauters"> 
+            <div class="container feauters-container">
             <h2 class="feauters-subject">скрытый</h2>
             <ul class="feauters-list">
                 <li class="feauters-item">
@@ -63,7 +63,7 @@
             </div>
         </section>
         <!-- работа -->
-        <section class="section-job">
+        <section class="section section-job">
             <div class="container">
             <h2 class="job-title">Чем мы занимаемся</h2>
             <ul class="job-list">
@@ -74,29 +74,37 @@
             </div>
         </section>
         <!-- команда -->
-        <section class="section-team">
+        <section class="section section-team">
             <div class="container">
             <h2 class="team-title">Наша команда</h2>
             <ul class="team-list">
                 <li class="team-item">
-                    <img src="./images/img4.jpg" alt="команда" width="270">
+                    <img class="team-img" src="./images/img4.jpg" alt="команда" width="270">
+                    <div class="team-container">
                     <h3 class="team-name">Игорь Демьяненко</h3>
                     <p class="team-position">Product Designer</p>
+                    </div>
                 </li>
                 <li class="team-item">
-                    <img src="./images/img5.jpg" alt="команда" width="270">
+                    <img class="team-img" src="./images/img5.jpg" alt="команда" width="270">
+                    <div class="team-container">
                     <h3 class="team-name">Ольга Репина</h3>
                     <p class="team-position">Frontend Developer</p>
+                    </div>
                 </li>
                 <li class="team-item">
-                    <img src="./images/img6.jpg" alt="команда" width="270">
+                    <img class="team-img" src="./images/img6.jpg" alt="команда" width="270">
+                    <div class="team-container">
                     <h3 class="team-name">Николай Тарасов</h3>
                     <p class="team-position">Marketing</p>
+                    </div>
                 </li>
                 <li class="team-item">
-                    <img src="./images/img7.jpg" alt="команда" width="270">
+                    <div class="team-container">
+                    <img class="team-img" src="./images/img7.jpg" alt="команда" width="270">
                     <h3 class="team-name">Михаил Ермаков</h3>
                     <p class="team-position">UI Designer</p>
+                    </div>
                 </li>
             </ul>
             </div>
@@ -105,7 +113,7 @@
     <!-- футер -->
     <footer class="footer">
         <div class="container">
-        <a href="./index.html" class="logo">Web<span class="logo-footer">Studio</span></a>
+        <a href="./index.html" class="logo ">Web<span class="logo-footer">Studio</span></a>
         <address class="address">
             <ul class="address-list">
                 <li class="address-item"><p class="address-text">г. Киев, пр-т Леси Украинки, 26</p></li>
