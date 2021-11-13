@@ -122,11 +122,9 @@ p {
 }
 
 /*герой*/
-.hero {
+.section-hero {
   background-color: var(--bgc-color);
   text-align: center;
-  padding-top: 200px;
-  padding-bottom: 200px;
 }
 
 .hero-title {
@@ -344,9 +342,11 @@ footer {
   padding-bottom: 94px;
 }
 
-/* .section-job {
-  padding-bottom: 0px;
-} */
 .section-feauters {
   padding-bottom: 0px;
+}
+
+.section-hero {
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
